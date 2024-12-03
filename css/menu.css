@@ -4,28 +4,33 @@
 }
 
 body {
-    background: linear-gradient(to right, #61dfff, #128f89);
+    background: linear-gradient(to right, #c0dfef, #1486bbcb);
 }
 
 .cabecalho-menu {
     justify-items: center;
     height: 150px;
-    background-color: #82e2f3;
-    border-bottom-left-radius: 50% 180px; /* Curva no canto inferior esquerdo */
-    border-bottom-right-radius: 50% 160px; /* Curva no canto inferior direito */
+    background-color: #59acd1;
+    border-bottom-left-radius: 50% 150px; /* Curva no canto inferior esquerdo */
+    border-bottom-right-radius: 50% 150px; /* Curva no canto inferior direito */
 }
 
 .cabecalho-menu img {
     width: 200px;
-    margin-top: 55px;
+    margin-top: 40px;
 }
 
 ul {
     list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 li {
     width: 100px;
+    margin: 0;
+    padding: 0;
+    display: flex;
 }
 
 .lista-menu {
@@ -45,6 +50,8 @@ li {
     text-align: center;
     width: 6rem;
     height: 6rem;
+    background-color: #59acd1;
+    border:#106da3;
 }
 
 .button-menu img {
