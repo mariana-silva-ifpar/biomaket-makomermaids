@@ -9,15 +9,9 @@ body {
 
 .cabecalho-menu {
     justify-items: center;
-    height: 150px;
     background-color: #59acd1;
-    border-bottom-left-radius: 50% 150px; /* Curva no canto inferior esquerdo */
-    border-bottom-right-radius: 50% 150px; /* Curva no canto inferior direito */
-}
-
-.cabecalho-menu img {
-    width: 200px;
-    margin-top: 40px;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
 }
 
 ul {
@@ -27,7 +21,6 @@ ul {
 }
 
 li {
-    width: 100px;
     margin: 0;
     padding: 0;
     display: flex;
@@ -48,16 +41,14 @@ li {
 
 .button-menu {
     text-align: center;
-    width: 6rem;
-    height: 6rem;
     background-color: #59acd1;
     border:#106da3;
+    border-radius: 5rem;
 }
 
 .button-menu img {
     display: block;
     margin: 0 auto;
-    width: 60px;
     object-fit: cover;
 }
 
