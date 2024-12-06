@@ -10,8 +10,6 @@ body {
 .cabecalho-menu {
     justify-items: center;
     background-color: #59acd1;
-    border-bottom-left-radius: 50%;
-    border-bottom-right-radius: 50%;
 }
 
 ul {
@@ -29,9 +27,14 @@ li {
 .lista-menu {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 5px;
-    padding: 1rem;
+    gap: 1rem;
+    padding: 1rem 2rem 1rem 2rem;
     justify-items: center;
+}
+
+.lista-menu button {
+    color: #dbe1f4;
+    font-weight: bold;
 }
 
 .menu-home {
@@ -43,7 +46,7 @@ li {
     text-align: center;
     background-color: #59acd1;
     border:#106da3;
-    border-radius: 5rem;
+    border-radius: 1rem;
 }
 
 .button-menu img {
@@ -52,6 +55,80 @@ li {
     object-fit: cover;
 }
 
-.button-quiz {
-    text-align: center;
+@media (max-width: 375px) {
+
+    .cabecalho-menu {
+        height: 7rem;
+        border-bottom-left-radius: 50% 100%;
+        border-bottom-right-radius: 50% 100%;
+    }
+    
+
+    .cabecalho-menu img {
+        margin-top: 2rem;
+        width: 8.5rem;
+    }
+
+    .lista-menu button {
+        width: 5rem;
+        height: 6rem;
+        gap: 1rem;
+    }
+
+    .lista-menu img {
+        width: 3rem;
+    }
+    
+}
+
+@media  (max-width: 414px) {
+
+    .cabecalho-menu {
+        height: 10rem;
+        border-bottom-left-radius: 50% 100%;
+        border-bottom-right-radius: 50% 100%;
+    }
+    
+
+    .cabecalho-menu img {
+        margin-top: 3rem;
+        width: 13.5rem;
+    }
+
+    .lista-menu button {
+        width: 9rem;
+        height: 10rem;
+        font-size: 1.4rem;
+    }
+
+    .lista-menu img {
+        width: 7rem;
+    }
+    
+}
+
+@media  (max-width: 540px) {
+
+    .cabecalho-menu {
+        height: 10rem;
+        border-bottom-left-radius: 50% 100%;
+        border-bottom-right-radius: 50% 100%;
+    }
+    
+
+    .cabecalho-menu img {
+        margin-top: 3rem;
+        width: 13.5rem;
+    }
+
+    .lista-menu button {
+        width: 9rem;
+        height: 10rem;
+        font-size: 1.4rem;
+    }
+
+    .lista-menu img {
+        width: 7rem;
+    }
+    
 }
