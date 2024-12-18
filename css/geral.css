@@ -12,16 +12,20 @@ body {
     overflow-x: hidden;
 }
 
-.titulo {
-    font-size: 1.5rem;
-    color: #ff63c0;
-    font-weight: bold;
+
+.titulo{
+    margin: 2rem auto;
     background-color: #ffd1ed;
-    width: 8rem;
-    margin: 1rem auto;
+    color: #ff63c0;
+    font-size: 1.2rem;
+    font-weight: bold;
     border-radius: 20px;
-    padding: 1rem 0;
+    text-align: center;
+    white-space: nowrap;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
+
+
 
 .container-info {
     display: flex;
@@ -59,7 +63,7 @@ video {
     color: #ff63c0 !important;
     background-color: #ffd1ed;
     border-radius: 10px;
-    padding: 0.3rem 1rem;
+    padding: 0.3rem 0.8rem;
     display: inline-block;
 }
 
@@ -75,7 +79,7 @@ video {
 
 .container-tema p {
     font-weight: bold;
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: #ffd1ed;
 }
 
