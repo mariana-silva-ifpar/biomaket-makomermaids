@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #ff99cc, #ff66b3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #ff66b3;
+}
+
+/* Cabeçalho */
+.cabecalho {
+    text-align: center;
+    margin-top: 1.25rem; /* 20px */
+    color: #fff;
+}
+
+.cabecalho h1 {
+    font-size: 2rem; /* 32px */
+    background-color: #ff99cc;
+    padding: 0.625rem 1.875rem; /* 10px 30px */
+    display: inline-block;
+    border-radius: 1.25rem; /* 20px */
+}
+
+.cabecalho img {
+    width: 100%;
+    max-width: 20rem; /* 400px */
+    border-radius: 1.25rem; /* 20px */
+    margin-top: 0.625rem; /* 10px */
+}
+
+/* Container Mid (Imagens do meio) */
+.container-mid {
+    display: flex;
+    justify-content: center;
+    gap: 1.25rem; /* 20px */
+    margin: 1.875rem 0; /* 30px 0 */
+}
+
+.container-mid img {
+    width: 9.375rem; /* 150px */
+    height: 9.375rem; /* 150px */
+    border-radius: 0.9375rem; /* 15px */
+    box-shadow: 0 0.25rem 0.375rem rgba(0, 0, 0, 0.2);
+    object-fit: cover;
+}
+
+/* Container Carrossel (3 Imagens em linha) */
+.container-carrossel {
+    display: flex;
+    justify-content: center;
+    gap: 0.9375rem; /* 15px */
+}
+
+.container-carrossel img {
+    width: 6.25rem; /* 100px */
+    height: 6.25rem; /* 100px */
+    border-radius: 0.9375rem; /* 15px */
+    box-shadow: 0 0.25rem 0.375rem rgba(0, 0, 0, 0.2);
+    object-fit: cover;
+}
+
+.button-control {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem auto;
+    margin-bottom: 2rem;
+    width: 90%;
+    max-width: 25rem; /* 400px */
+}
+
+.button-control a button {
+    background-color: #ff63c0;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 1.25rem; /* 20px */
+    padding: 0.5rem 0.9375rem; /* 8px 15px */
+    cursor: pointer;
+    box-shadow: 0 0.25rem 0.375rem rgba(0, 0, 0, 0.1);
+    font-size: 1rem; /* 16px */
+}
+
+.button-control a button:hover {
+    background-color: #e852a8;
+    transition: background-color 0.3s;
+}
