@@ -94,6 +94,44 @@ video {
     line-height: 1.5;
 }
 
+.container-sobrenos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: .5rem;
+    margin-top: 1rem;
+}
+
+.container-individual {
+    text-align: center;
+    font-weight: bold;
+}
+
+.sobrenos-texto {
+    color: #b649ad;
+}
+
+.container-insta {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    margin-bottom: .5rem;
+}
+.container-insta a {
+    text-decoration: none;
+    font-size: 0.8rem;
+}
+
+.container-insta img {
+    border-radius: 0 !important;
+    width: 1rem;
+}
+
+.container-individual img {
+    border-radius: 50%;
+    margin-top: .5rem;
+    max-width: 10rem !important;
+}
+
 .button-control {
     display: flex;
     justify-content: space-between;
@@ -139,6 +177,12 @@ video {
         font-size: 0.9rem;
         padding: 0.5rem 1rem;
     }
+}
+
+.container-individual img {
+    border-radius: 50%;
+    margin-top: .5rem;
+    max-width: 7rem !important;
 }
 
 @media (max-width: 414px) {
